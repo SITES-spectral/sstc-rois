@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sstc-rois"
+version = "0.1.0"
+description = ""
+authors = ["Jobelund <124563223+jobelund@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "sstc_rois", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
