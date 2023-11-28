@@ -8,6 +8,9 @@ packages = [{include = "sstc_rois", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+mkdocs = "^1.5.3"
+pytest = "^7.4.3"
+pyyaml = "^6.0.1"
 
 
 [build-system]
